@@ -375,7 +375,11 @@ header{
 	color: #fff;
 	border-radius: 100%;
 	width: 50px;
-	height: 50px;
+	height: 50px;	
+	transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
 }
 .go-top.show{
 	display: block;
