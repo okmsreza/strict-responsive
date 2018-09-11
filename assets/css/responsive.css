@@ -1,0 +1,146 @@
+@media (max-width: 1200px){
+
+
+
+
+}
+@media (max-width: 992px){
+
+	.navbar-nav .nav-item .nav-link {
+		padding: 5px 10px;
+		font-weight: 400;
+	}
+
+	.hover-overlay {
+		width: 88%;
+		height: 88%;
+	}
+
+
+}
+@media (max-width: 768px){
+
+	.hover-overlay {
+		width: 71%;
+		height: 93%;
+	}
+
+	.navbar-nav {
+		min-height: 100%;
+		border: 1px solid #fff;
+		box-shadow: 0 5px 15px #544e4e;
+		border-radius: 0 0 5px 5px;
+		-webkit-transition:  all 3s; /* For Safari 3.1 to 6.0 */
+		-moz-transition:  all 3s; /* For Mozilla 3.1 to 6.0 */
+		-o-transition:  all 3s; /* For Opera 3.1 to 6.0 */
+		transition:  all 3s;
+	}
+	.navbar-brand h2 {
+		text-align: left;
+		font-size: 22px;
+		color: #030303;
+		margin-bottom: -12px;
+	}
+	.navbar-collapse {
+		position: absolute;
+		top: 70px;
+		z-index: 9;
+		color: #fff;
+		left: 0px;
+		width: 100%;
+		background-color: #fff;
+	}
+	.divider {
+		width: 100%;
+	}
+	.simple-pure-contents {
+		margin: 0 auto;
+	}
+	.feature-contents {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.feature .feature-contents .f-grid {
+		padding: 20px 0;
+	}
+
+	.footer .footer-contents .copyright {
+		width: 50%;
+	}
+	.footer .footer-contents .social {
+		width: 50%;
+	}
+	.footer .footer-contents .social {
+		padding-left: 40px;
+	}
+	.contact-us .form-contents {
+		padding: 0;
+	}
+}
+@media (max-width: 500px){
+	.hover-overlay {
+		min-width: 92%;
+		height: 93%;
+	}
+	.navbar-light .navbar-brand {
+		margin: 0;
+	}
+	.slider .slider-contents h1 {
+		font-size: 55px;
+	}
+	.slider .slider-contents p {
+		font-size: 14px;
+	}
+	.slider .slider-contents .call {
+		font-size: 15px;
+	}
+	.simple-pure-contents h2 {
+		font-size: 22px;
+	}
+	.simple-pure-contents p {
+		font-size: 13px;
+	}
+	.feature .feature-contents .f-grid h3 {
+		font-size: 17px;
+	}
+	.porfolio .porfolio-contents h2 {
+		font-size: 18px;
+	}
+	.porfolio .porfolio-contents p {
+		font-size: 15px;
+	}
+	.contact-us h2 {
+		font-size: 33px;
+	}
+	.contact-us p {
+		font-size: 14px;
+	}
+	.contact-us .form-contents .form-control {
+		text-indent: 5px;
+	}
+	.contact-us .form-contents p {
+		margin-top: 8px;
+		font-size: 13px;
+	}
+	.contact-us .form-contents .send-btn {
+		padding: 5px 12px 5px 12px;
+		font-size: 15px;
+	}
+	.footer .footer-contents {
+		text-align: center;
+	}
+	.footer .footer-contents .social {
+		padding-left: 0;
+	}
+	.footer .footer-contents .copyright {
+		width: 100%;
+		padding-bottom: 0;
+	}
+	.footer .footer-contents .social {
+		width: 100%;
+		padding-top: 0;
+	}
+}
+@media (max-width: 350px){
+
+}
