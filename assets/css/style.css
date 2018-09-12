@@ -8,7 +8,7 @@ body{
 }
 
 a{
-	text-decoration:none;
+	text-decoration:none !important;
 	cursor:pointer;
 }
 li{
@@ -108,6 +108,7 @@ header{
 	font-size: 30px;
 	display: block;
 	color: #fff;
+	margin-bottom: 15px;
 }
 
 .slider .slider-contents a i:hover{
